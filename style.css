@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 768px) {
+  body {
+    background: url('https://cdn.wallpapersafari.com/34/29/53vauA.gif');
+  }
+}
+
+body {
+  background: url("https://j.gifs.com/y09Gjp.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
